@@ -1,0 +1,8 @@
+<div class="counter">
+    <div class="total">{{total}}</div>
+    <div style="display: flex; flex-direction: row; justify-content: space-around">
+        <button (click)="increment.emit()" class="increment">+</button>
+        <button (click)="decrement.emit()" class="decrement">-</button>
+        <button (click)="reset.emit()" class="reset">C</button>
+    </div>
+</div>
